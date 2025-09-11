@@ -96,5 +96,3 @@ gatsby develop
 - **Fullstack (static + dynamic, API):** Next.js is best fit.
 - **Static only:** Astro or Gatsby (GitHub Pages deploy).
 - **Separate backend:** CRA + Express (not for GitHub Pages).
-
-> _Choose your stack based on your needs! Let me know if you want a step-by-step for any option._
