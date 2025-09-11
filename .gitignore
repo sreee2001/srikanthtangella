@@ -1,0 +1,54 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+
+# Build output
+build/
+dist/
+
+# Vite
+.vite/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+
+# Misc
+*.local
+
+# Ignore coverage reports
+coverage/
+
+# Ignore next.js build output
+.next/
+
+# Ignore Astro build output
+.astro/
+
+# Ignore Gatsby build output
+.cache/
+public/
+
+# Ignore production files
+out/
+
+# Ignore IDE settings
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
