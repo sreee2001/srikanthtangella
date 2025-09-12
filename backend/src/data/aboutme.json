@@ -1,0 +1,13 @@
+{
+    "name": "Srikanth Tangella",
+    "country": "USA",
+    "currentlocation" : "Houston, TX",
+    "birthCountry": "India",
+    "birthCity": "Hyderabad",
+    "bio": "Software Leader, architect and developer. I have a passion for learning and building.",
+    "hobbies": ["Cooking", "Computer Games", "Reading Novels", "Movies"],
+    "email": "srikanth.tangella@example.com",
+    "social": {
+        "github": "https://github.com/sreee2001"
+    }
+}

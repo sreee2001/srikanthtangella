@@ -1,0 +1,10 @@
+{
+    "projects": [
+        {
+            "name": "Personal Portfolio Website",
+            "description": "A personal portfolio website to showcase my projects and skills.",
+            "technologies": ["React", "Node.js", "Express", "CSS"],
+            "link": "https://srikanthtangella.dev"
+        }
+    ]
+}

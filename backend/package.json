@@ -4,17 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "clean": "rimraf ./dist",
+    "dev": "nodemon --watch ./src --ext ts,json --exec ts-node ./src/server.ts",
+    "start": "node ./dist/src/server.js",
+    "type-check": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/node": "^24.3.1",
+    "rimraf": "^6.0.1",
     "typescript": "^5.9.2"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "tsx": "^4.20.5"
   }

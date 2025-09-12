@@ -1,0 +1,180 @@
+{
+    "experiences": [
+            {
+                "company": "The Bank of New York Mellon",
+                "title": "Vice President - Cyber Security",
+                "role" : "Software Engineer",
+                "location": "remote",
+                "startDate": "May 2022",
+                "endDate": "Present",
+                "responsibilities": [
+                    "Managed software development for Cyber Security Solutions for both internal and external consumers.",
+                    "Designed and developed commercial-grade enterprise cybersecurity products (with pending IPs).",
+                    "Provided monthly reports to C-Suite and stakeholders.",
+                    "80% hands-on, 20% management. Managed a team of 2 senior developers."
+                ],
+                "technical": {
+                    "frontend": ["React", "ASP.NET Razor", "WPF", "Swift", "MAUI"],
+                    "backend": ["TypeScript", "Entity Framework", "SQL Server", "REST API", "GraphQL", "Kafka", "Splunk", "Event Log"]
+                },
+                "accomplishments": [
+                    "Secured over 80,000 Windows, 10,000 Modern Published Desktops (Windows Servers), and 10,000 MacBooks, covering 99% of all employee devices.",
+                    "Reduced unauthorized access to company data and services by 97% through implementation that permits only vetted users to access restricted services."
+                ],
+                "projects": [
+                    "DevOps Administrator: Ensured compliance with BNY corporate policies.",
+                    "Developed and maintained GitLab CI/CD pipeline, integrated Sonarqube and Artifactory.",
+                    "Guided and deployed microservices architecture for Web API, ServiceNow workflow integration, Chrome browser extension for browser activity monitoring, and typosquatting prevention feature using ML and .NET Windows services."
+                ]
+            },
+            {
+                "company": "Apex Systems",
+                "title": "Consultant",
+                "location": "",
+                "startDate": "Oct 2021",
+                "endDate": "Dec 2021",
+                "responsibilities": [
+                    "Developed a Front End React Application connecting to SQL Server and Oracle using Entity Framework.",
+                    "Full life cycle development using Agile methodology, focused on usability, availability, performance, and memory usage.",
+                    "Implemented custom search functionality using expressions."
+                ],
+                "accomplishments": [
+                    "Completed the project in 2 months with deployment to 6,000 machines (80% of total machines)."
+                ],
+                "technical": {
+                    "frontend": ["C#", ".NET Core", "React", "Web API", "TypeScript"],
+                    "backend": ["SQL Server", "Oracle Server", "Entity Framework"],
+                    "other": ["Active Directory", "Windows Services", "Web Services", "Event Log", "GitLab pipeline", "Jira", "Splunk", "PowerShell", "Kafka", "OAuth", "EntraID"]
+                }
+            },
+            {
+                "company": "JP Morgan Chase",
+                "title": "Consultant",
+                "location": "",
+                "startDate": "May 2021",
+                "endDate": "Sept 2021",
+                "responsibilities": [
+                    "Developed MS Office Add-in and VSTO solution for email-driven ServiceNow ticketing integration.",
+                    "Created WPF application for database reporting with custom filters using Expression Builder.",
+                    "Managed logging and messaging with Kafka and Splunk, CI/CD with Jenkins."
+                ],
+                "accomplishments": [
+                    "Completed the project in 4 months with deployment to 15,000 machines (70% of total machines)."
+                ],
+                "technical": {
+                    "frontend": ["C#", ".NET Core", ".NET Framework", "WPF", "Office Add-in", "VSTO"],
+                    "backend": ["SQL Server", "Entity Framework"],
+                    "other": ["Active Directory", "Event Log", "GitLab Pipelines", "Jira", "Splunk", "PowerShell", "Kafka", "Jenkins"]
+                }
+            },
+            {
+                "company": "Apex Systems / ExxonMobil",
+                "title": "Consultant / SME / Scrum Master",
+                "location": "",
+                "startDate": "Sep 2017",
+                "endDate": "Apr 2020",
+                "responsibilities": [
+                    "Architected, designed, and delivered robust desktop solutions using .NET Framework and SQL Server.",
+                    "Led a team of five developers, ensured TDD, SOLID principles, and documentation.",
+                    "Oversaw projects in WinForms, Python, ArcGIS, C++/Fortran for scientific/geospatial applications, and HPC modules on Unix."
+                ],
+                "accomplishments": [
+                    "Replaced legacy Excel workflows with modern WPF applications, improving data integrity and reporting.",
+                    "Developed GeoX version comparison tool, reducing manual testing from months to days."
+                ],
+                "projects": [
+                    "Assessment Tracking Database (ATDB) – Creator, Architect and SME (WPF, SQL Server, Web API)",
+                    "Drill Well Learning System (DWLS) (WPF, SQL Server, Web API)",
+                    "Direct Hydrocarbon Indicator (DHI) (WPF, SQL Server, Web API)",
+                    "SourceRER (WinForms, ArcGIS)",
+                    "GeoX Upgrade (C#, Data Driven Unit Testing, Oracle, GeoX 6.2 & 2018)",
+                    "PlateLab (C#, Python, Blender)",
+                    "HPC Systems (C/C++/Fortran, Unix)"
+                ],
+                "technical": {
+                    "frontend": [".NET Framework", "WPF", "WinForms", "Python", "ArcGIS"],
+                    "backend": ["SQL Server", "Oracle", "Entity Framework"],
+                    "other": ["C++", "Fortran", "Blender", "GeoX", "Unix", "Tableau"]
+                }
+            },
+            {
+                "company": "SoftHQ",
+                "title": "Lead Software Engineer",
+                "location": "Houston, Tx",
+                "startDate": "Aug 2016",
+                "endDate": "Nov 2016",
+                "responsibilities": [
+                    "Developed modular C# WPF applications using DevExpress and MVVM, SQL Server."
+                ],
+                "technical": {
+                    "frontend": ["C#", "WPF", "DevExpress", "MVVM"],
+                    "backend": ["SQL Server"]
+                }
+            },
+            {
+                "company": "Genzeon",
+                "title": "Principal Software Engineer",
+                "location": "Malvern, PA",
+                "startDate": "Feb 2016",
+                "endDate": "Aug 2016",
+                "responsibilities": [
+                    "Developed and optimized C# WPF applications using Infragistics and MVVM, enhanced Allscripts Medical Billing Software, modified database schemas, wrote PL/SQL code, improved UI, and implemented testing."
+                ],
+                "technical": {
+                    "frontend": ["C#", "WPF", "Infragistics", "MVVM"],
+                    "backend": ["SQL Server", "PL/SQL"]
+                }
+            },
+            {
+                "company": "IHS",
+                "title": "Senior Software Engineer",
+                "location": "",
+                "startDate": "Jan 2014",
+                "endDate": "Jan 2016",
+                "responsibilities": [
+                    "Developed and optimized C# WPF applications for seismic and geological interpretation using Telerik, Prism, and MVVM.",
+                    "Migrated legacy algorithms to CUDA, enhanced UI/UX, improved performance and database access, led team delivery with advanced code generation."
+                ],
+                "technical": {
+                    "frontend": ["C#", "WPF", "Telerik", "Prism", "MVVM"],
+                    "backend": ["SQL Server", "CUDA"]
+                }
+            },
+            {
+                "company": "CGG",
+                "title": "Software Engineer",
+                "location": "Houston, Tx",
+                "startDate": "Oct 2010",
+                "endDate": "Jul 2013",
+                "responsibilities": [],
+                "technical": {}
+            },
+            {
+                "company": "Electronic Arts Mobile",
+                "title": "Software Engineer",
+                "location": "Hyderabad, India",
+                "startDate": "Oct 2008",
+                "endDate": "Nov 2009",
+                "responsibilities": [],
+                "technical": {}
+            },
+            {
+                "company": "Aurona Technologies Ltd.",
+                "title": "Game Programmer",
+                "location": "Hyderabad, India",
+                "startDate": "Dec 2007",
+                "endDate": "Oct 2008",
+                "responsibilities": [],
+                "technical": {}
+            },
+            {
+                "company": "Infosys Technologies Ltd.",
+                "title": "Software Engineer / Test Engineer",
+                "location": "",
+                "startDate": "Jul 2005",
+                "endDate": "Dec 2007",
+                "responsibilities": [],
+                "technical": {}
+            }
+      ]
+  }

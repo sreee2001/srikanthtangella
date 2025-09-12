@@ -18,5 +18,11 @@
 
 		// Disallow features that require cross-file awareness
 		"isolatedModules": true,
+
+    // set the output directory for compiled files
+    "outDir": "./dist",
+
+    // Preserve the exact structure of the original module
+      "verbatimModuleSyntax": true
 	},
 }
