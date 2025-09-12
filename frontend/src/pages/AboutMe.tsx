@@ -18,7 +18,7 @@ function About() {
   const [profile, setProfile] = useState<Profile | null>(null);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/about")
+    fetch("http://localhost:3000/api/aboutme")
       .then((res) => res.json())
       .then(setProfile);
   }, []);

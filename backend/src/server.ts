@@ -1,10 +1,13 @@
 import express from 'express';
 import cors from 'cors';
+import swaggerUi from 'swagger-ui-express';
+import swaggerSpec from './swagger.js';
 import aboutRouter from './routes/aboutme.js';
 import educationRouter from './routes/education.js';
 import experienceRouter from './routes/experience.js';
 import projectsRouter from './routes/projects.js';
 import contactmeRouter from './routes/contactme.js';
+import todoRouter from './routes/todo.js';
 
 
 const app = express();
@@ -19,32 +22,24 @@ app.use(educationRouter);+
 app.use(experienceRouter);
 app.use(projectsRouter);
 app.use(contactmeRouter);
+app.use(todoRouter);
 
-// In-memory todo list
-let todos: { id: number; text: string }[] = [];
-let nextId = 1;
-
-// Get all todos
-app.get('/api/todos', (req, res) => {
-  res.json(todos);
-});
-
-// Add a new todo
-app.post('/api/todos', (req, res) => {
-  const { text } = req.body;
-  if (!text) return res.status(400).json({ error: 'Text is required' });
-  const todo = { id: nextId++, text };
-  todos.push(todo);
-  res.status(201).json(todo);
-});
-
-// Delete a todo
-app.delete('/api/todos/:id', (req, res) => {
-  const id = Number(req.params.id);
-  todos = todos.filter(todo => todo.id !== id);
-  res.status(204).send();
+app.get('/', (req, res) => {
+  res.json({
+    availableEndpoints: [
+      '/api/aboutme',
+      '/api/education',
+      '/api/experience',
+      '/api/projects',
+      '/api/contactme',
+      '/api/todos'
+    ]
+  });
 });
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
