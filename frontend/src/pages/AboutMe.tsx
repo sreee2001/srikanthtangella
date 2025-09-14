@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { API_BASE_URL } from "../config";
+import NavigationMenuOptions from "../Navigation/NavigationMenu.options";
 
 type Profile = {
   name: string;
@@ -18,7 +20,9 @@ function About() {
   const [profile, setProfile] = useState<Profile | null>(null);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/aboutme")
+    const aboutMeRoute = NavigationMenuOptions.aboutme.route;
+
+    fetch(`${API_BASE_URL}${aboutMeRoute}`)
       .then((res) => res.json())
       .then(setProfile);
   }, []);
