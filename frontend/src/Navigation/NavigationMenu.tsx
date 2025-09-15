@@ -13,17 +13,17 @@ import Todo from "../pages/Todo";
 const NavigationMenu: React.FC<NavigationMenuProps> = ({ menu }) => {
   return (
     <BrowserRouter>
-      <div>
-        <nav>
-          <ul>
-            {menu.map((item) => (
-              <li key={item.name}>
-                <Link to={item.url}>{item.name}</Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
-      </div>
+      <nav className="nav-menu">
+        <ul>
+          {menu.map((item) => (
+            <li key={item.name}>
+              <Link className="nav-link" to={item.url}>
+                {item.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aboutme" element={<AboutMe />} />

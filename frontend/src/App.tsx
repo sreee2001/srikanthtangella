@@ -1,4 +1,5 @@
 import "./App.css";
+import "./styles/theme.css";
 import NavigationMenuOptions from "./Navigation/NavigationMenu.options";
 import NavigationMenu from "./Navigation/NavigationMenu";
 import { ThemeProvider as StyledThemeProvider } from "styled-components";
@@ -10,7 +11,7 @@ function App() {
   const { theme } = UseTheme();
 
   return (
-    <PageContainer theme={theme}>
+    <PageContainer id="root" className={`theme-${theme.name}`}>
       <StyledThemeProvider theme={theme}>
         <ThemeSwitcher />
         <NavigationMenu menu={Object.values(NavigationMenuOptions)} />
