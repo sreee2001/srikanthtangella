@@ -30,7 +30,7 @@ function About() {
   if (!profile) return <div>Loading...</div>;
 
   return (
-    <div>
+    <div style={{ paddingTop: "2rem" }}>
       <h1>{profile.name}</h1>
       <p>
         <strong>Bio:</strong> {profile.bio}

@@ -40,7 +40,7 @@ export default function Home() {
   );
 
   return (
-    <div>
+    <div style={{ paddingTop: "2rem" }}>
       <h1>Welcome to my world!</h1>
       <h2> ~ Srikanth Tangella ~ </h2>
 

@@ -35,7 +35,7 @@ function Todo() {
 
   return (
     <>
-      <div>
+      <div style={{ paddingTop: "2rem" }}>
         <h1>Todo List</h1>
         <input value={input} onChange={(e) => setInput(e.target.value)} />
         <button onClick={addTodo}>Add</button>
