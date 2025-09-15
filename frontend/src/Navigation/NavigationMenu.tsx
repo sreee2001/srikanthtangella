@@ -9,20 +9,24 @@ import Education from "../pages/Education";
 import Experience from "../pages/Experience";
 import Projects from "../pages/Projects";
 import Todo from "../pages/Todo";
+import ThemeSwitcher from "../themes/ThemeSwitcher";
 
 const NavigationMenu: React.FC<NavigationMenuProps> = ({ menu }) => {
   return (
     <BrowserRouter>
       <nav className="nav-menu">
-        <ul>
-          {menu.map((item) => (
-            <li key={item.name}>
-              <Link className="nav-link" to={item.url}>
-                {item.name}
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <div className="nav-inner">
+          <ul>
+            {menu.map((item) => (
+              <li key={item.name}>
+                <Link className="nav-link" to={item.url}>
+                  {item.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <ThemeSwitcher />
+        </div>
       </nav>
       <Routes>
         <Route path="/" element={<Home />} />
