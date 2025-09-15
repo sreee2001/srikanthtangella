@@ -12,6 +12,7 @@
   --border-radius: 8px;
   --link: #646cff;
   --link-hover: #535bf2;
+  --link-hover-bg: #e0e0ff;
 }
 
 .theme-dark {
@@ -21,12 +22,13 @@
   --accent: #ff4081;
   --card-bg: #222;
   --button-bg: #333;
-  --button-color: #f5f5f5;
+  --button-color: #cacaca75;
   --nav-bg: #222;
   --nav-link: #ff4081;
   --border-radius: 0px;
   --link: #646cff;
   --link-hover: #535bf2;
+  --link-hover-bg: #303030;
 }
 
 /* Layout classes */

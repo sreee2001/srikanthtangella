@@ -61,7 +61,7 @@ export default function Home() {
               border: "1px solid #ccc",
               borderRadius: "8px",
               padding: "1rem",
-              background: "#f9f9f9",
+              background: "var(--background-bg)",
             }}
           >
             <strong>{item.title}</strong>
